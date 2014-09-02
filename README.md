@@ -1,5 +1,5 @@
-strongloop-angular-seed
-=======================
+LoopBack-Angular-Seed
+=====================
 
 This is a base seed for a full stack of [LoopBack](http://loopback.io/), [StrongLoop](http://strongloop.com/), [Angular](https://angularjs.org/), [Bootstrap](http://getbootstrap.com/) with [CoffeeScript](http://coffeescript.org/)
 

@@ -1,13 +1,15 @@
 {
   "node": true,
+  "browser": true,
   "esnext": true,
   "bitwise": true,
   "camelcase": true,
+  "curly": true,
   "eqeqeq": true,
   "eqnull": true,
   "immed": true,
   "indent": 2,
-  "latedef": "nofunc",
+  "latedef": true,
   "newcap": true,
   "nonew": true,
   "noarg": true,
@@ -17,5 +19,10 @@
   "unused": true,
   "trailing": true,
   "sub": true,
+  "strict": true,
+  "smarttabs": true,
+  "globals": {
+    "angular": false
+  }
   "maxlen": 80
 }
