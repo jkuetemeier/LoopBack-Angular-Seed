@@ -1,11 +1,49 @@
 {
   "name": "LoopBack-Angular-Seed",
+
   "version": "0.0.1",
+
+  "description": "This is a base seed for a full stack of StrongLoop, Angular, Bootstrap with CoffeeScript",
+
   "main": "server/server.js",
+
+  "directories": {
+    "test": "test"
+  },
+
   "scripts": {
     "pretest": "jshint .",
-    "test": "grunt test"
+    "test": "grunt test",
+    "build": "bower install; grunt build"
   },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jkuetemeier/LoopBack-Angular-Seed.git"
+  },
+
+  "author": "Jörg Kütemeier",
+
+  "license": "MIT",
+
+  "bugs": {
+    "url": "https://github.com/jkuetemeier/LoopBack-Angular-Seed/issues"
+  },
+
+  "homepage": "https://github.com/jkuetemeier/LoopBack-Angular-Seed",
+
+  "keywords": [
+    "loopback",
+    "example",
+    "seed",
+    "strongloop",
+    "angular",
+    "coffee",
+    "coffeescript",
+    "browser",
+    "server"
+  ],
+
   "dependencies": {
     "compression": "^1.0.3",
     "errorhandler": "^1.1.1",
@@ -14,11 +52,15 @@
     "loopback-datasource-juggler": "^2.7.0",
     "serve-favicon": "^2.0.1"
   },
+
   "optionalDependencies": {
     "loopback-explorer": "^1.1.0"
   },
+
   "devDependencies": {
     "coffee-script": "^1.8.0",
+    "browserify": "~4.2.3",
+    "connect-livereload": "^0.4.0",
     "grunt": "^0.4.1",
     "grunt-autoprefixer": "^0.7.3",
     "grunt-concurrent": "^0.5.0",
@@ -34,6 +76,7 @@
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-contrib-uglify": "^0.4.0",
     "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-less": "^0.11.4",
     "grunt-filerev": "^0.2.1",
     "grunt-google-cdn": "^0.4.0",
     "grunt-karma": "^0.8.3",
@@ -48,8 +91,10 @@
     "karma-jasmine": "^0.1.5",
     "karma-phantomjs-launcher": "^0.1.4",
     "load-grunt-tasks": "^0.4.0",
-    "time-grunt": "^0.3.1"
+    "time-grunt": "^0.3.1",
+    "mocha": "^1.21.4"
   },
+
   "engines": {
     "node": ">=0.10.0"
   },

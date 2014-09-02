@@ -43,12 +43,16 @@ The following NPM Modules should be installed globaly
 - [Yeoman](http://yeoman.io/) (run dependency)
 - [Yeoman Generator for LoopBack](https://github.com/strongloop/generator-loopback) (run dependency)
 - [Yeoman Generator for Angular](https://github.com/yeoman/generator-angular) (development dependency)
+- [Grunt](http://gruntjs.com/) (run dependency)
+- [Bower](http://bower.io/) (run dependency - for install)
 
 ```
 npm install -g coffee-script
 npm install -g yeoman
 npm install -g generator-loopback
 npm install -g generator-angular
+npm install -g grunt
+npm install -g bower
 ```
 
 
