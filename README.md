@@ -17,7 +17,11 @@ The following NPM Modules should be installed globaly
 - Yeoman Generator for LoopBack (run)
 - Yeoman Generator for Angular (development)
 
-    npm install -g coffee-script
-    npm install -g yeoman
-    npm install -g generator-loopback
-    npm install -g generator-angular
+```
+npm install -g coffee-script
+npm install -g yeoman
+npm install -g generator-loopback
+npm install -g generator-angular
+```
+
+
