@@ -1,3 +1,7 @@
+## Archived
+
+This project is archived. I'm not using it any more, but it stays here for your personal reference. Enjoy ;-)
+
 LoopBack-Angular-Seed
 =====================
 
